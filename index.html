@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <h1 class="brand">Tushar Banerjee</h1>
+        <ul class="links-container">
+           <li class="link-item"><a href="#" class="Link active">home</a></li>
+           <li class="link-item"><a href="#project-section" class="Link">Projects</a></li>
+           <li class="link-item"><a href="#about-section" class="Link">about</a></li>
+           <li class="link-item"><a href="#contact-section" class="Link">contact</a></li> 
+        </ul>
+
+
+    </nav>
+<!--home section -->
+   <section class="home">
+
+    <div class="hero-content">
+         <h1 class="hero-heading"><span class="highlight">hi, </span>I am Tushar</h1>
+         <p class="profession">Web Developer</p>
+         <p class="info">I am a positive, enthusiastic and competent Web Developer who, over the years, has built up a diverse range of skills, qualities and attributes that help me to build dyanamic websites.</p>
+            <a href="#contact-section" class="btn">contact</a>
+    </div>
+    <img src="images/img.png.jpeg" class = " image" alt="Loading...">
+   </section>
+<!--about-->
+<section class="about" id="about-section">
+<h2 class="heading">about <span class="highlight">me</span></h2>
+<p class="sub-heading"></p>
+<div class="separator"></div>
+<div class="about-me-container">
+    <div class="left-col">
+        <img src="images/img.png1.jpg" class="about-image" alt="">
+</div>
+<div class="right-col">
+    <p class="about-para">
+        I am a tech enthusiast and want to learn new technologies as well as to apply them practically which helps me to brush up my skilss.As for now I am in Btech CS and 
+        an Amateur Full Stack Web Developer I also share quite a interest in Teaching, Cooking, Watching web series, Singing and more.
+    </p>
+    <a href="/_Resume 2023 (3).pdf"  download= "Resume" class="btn" >Download cv</a>
+</div>
+</div>
+<h2 class="heading">Languages and framework i know</h2>
+<div class="separator"></div>
+<div class="skill-container">
+
+    <div class="skill-card" style="--bg: #f06529">
+        <p class="skill">HTML</p>
+    </div>
+    <div class="skill-card" style="--bg: #f7687f">
+        <p class="skill">CSS</p>
+    </div>
+    <div class="skill-card" style="--bg: #f0655f">
+        <p class="skill">Bootstrap</p>
+    </div>
+    
+    <div class="skill-card" style="--bg: #f5529f">
+        <p class="skill">JavaScript</p>
+    </div>
+    <div class="skill-card" style="--bg: #d4d4d4">
+        <p class="skill">ReactJS</p>
+    </div>
+    <div class="skill-card " style="--bg: #f3533d">
+        <p class="skill">My SQL</p>
+    </div>
+    <div class="skill-card" style="--bg: #f3253d">
+        <p class="skill">Solidity</p>
+    </div>
+    <div class="skill-card " style="--bg: #5ednfb">
+        <p class="skill">much more...</p>
+    </div>
+    
+</div>
+
+
+</section>
+<!--project section-->
+<section class="project" id="project-section">
+    <h2 class="heading">Project<span class="highlight">s</span></h2>
+    <p class="sub-heading"></p>
+    <div class="separator"></div>
+    <div class="filters">
+        <button class="filterbtn active" id="all">all</button>
+        <button class="filterbtn " id="Frontend">frontend</button>
+        <button class="filterbtn " id="JavaScript">JavaScript</button>
+        <button class="filterbtn " id="fullstack">Blockchain</button>
+        
+    </div>
+    <div class="project-container">
+        <div class="project-card">
+            <img src="images/img3.png" alt="">
+            <div class="content">
+                <a href="https://bankroads.netlify.app/">
+                <h1 class="project-name">Bankroads</h1>
+            </a>
+                <span class="tags">#frontend</span>
+            
+            </div>
+        </div>
+        <div class="project-card">
+            <img src="images/img6.png" alt="">
+            <div class="content">
+                <a href="https://devmee.webflow.io/">
+                <h1 class="project-name">Devmee</h1>
+            </a>
+                <span class="tags">#frontend</span>
+            
+            </div>
+        </div>
+        <div class="project-card">
+            <img src="images/img5.jfif" alt="">
+            <div class="content">
+                <a href="#">
+                <h1 class="project-name">Crowd Funding smart contract</h1>
+            </a>
+                <span class="tags">#frontend</span>
+            
+            </div>
+        </div>
+        <div class="project-card">
+            <img src="images/img2.jfif" alt="">
+            <div class="content">
+                <a href="">
+                <h1 class="project-name">Portfolio</h1>
+            </a>
+                <span class="tags">#frontend</span>
+            
+            </div>
+        </div>
+    </div>
+   
+   
+
+</section>
+<!--contact-->
+<section class="contact" id="contact-section">
+    <h2 class="heading">Contact<span class="highlight"> Me</span></h2>
+    <p class="sub-heading">Feel free to contact for work related queries.</p>
+    <div class="separator"></div>
+
+    <div class="contact-form" >
+        <div class="name">
+            <input type="text" class="first-name" required placeholder="first-name">
+            <input type="text" class="last-name" required placeholder="last-name">
+            
+         </div>
+         <input type="email" class="email" required placeholder="email" >
+         <textarea class="message" placeholder="message" required></textarea>
+         <button class="btn contact-btn"> Contact</button>
+        </div>
+</section>
+
+<footer class="footer">made with love by Tushar</footer>
+
+   <script src="project.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
